@@ -5,13 +5,14 @@ import logo from './f.ico';
 const Header = ()=>{
     const [time, setTime] = useState(new Date().toLocaleTimeString());
     
-useEffect(()=>{
-  const interval = setInterval(()=>{
-    setTime(new Date().toLocaleTimeString())
-  },1000)
+// useEffect(()=>{
+//   const interval = setInterval(()=>{
+//     setTime(new Date().toLocaleTimeString())
+//   },1000)
 
-  return ()=> clearInterval(interval);
-},[])
+//   return ()=> clearInterval(interval);
+// },[])
+
     // useEffect(() => {
     //     // Устанавливаем интервал для обновления времени каждую секунду
     //     const timer = setInterval(() => {
