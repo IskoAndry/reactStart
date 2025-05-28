@@ -1,0 +1,10 @@
+
+.li{
+    margin: 40px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid #f82c2c;
+    border-radius: 20px;
+    list-style-type: none;
+    background-color: rgba(255, 176, 176, 0.767);
+}
